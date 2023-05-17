@@ -107,9 +107,9 @@ main {
 .mountain-8{
     z-index: 16;
     position: absolute;
-    width: 810px;
-    top: calc(50% + 806px);
-    left: calc(50% - 202px);
+    width: 910px;
+    top: calc(50% + 306px);
+    left: calc(50% - 302px);
     
 }
 
