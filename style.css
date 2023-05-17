@@ -10,6 +10,7 @@
 
 body {
   background-color: #333;
+  font-family: "Game Over", Sans-serif;
 }
 
 .logo {
@@ -145,13 +146,13 @@ main {
 
 .text h2{
     font-weight: 100;
-    font-size: 6.5rem;
+    font-size: 8vw;
     line-height: 0.88;
 }
 
 .text h1{
     font-weight: 800;
-    font-size: 8rem;
+    font-size: 10vw;
     line-height: 0.88;
 }
 
