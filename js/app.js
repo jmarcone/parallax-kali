@@ -17,7 +17,6 @@ function update(cursorPosition){
         let computedZ = zValue * isInLeft * 0.1;
         el.style.transform = `translateX(calc(-50% + ${-xValue * speedx}px))
          translateY(calc(-50% + ${yValue * speedy}px))
-            perspective(2300px)
             rotateY(${rotateDegre * rotation}deg)
             translateZ(${computedZ * speedz}px)
          `;
