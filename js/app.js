@@ -9,7 +9,7 @@ function update(cursorPosition){
         let speedy = el.dataset.speedy;
         let speedz = el.dataset.speedz;
         let rotation = el.dataset.rotation;
-        console.log(cursorPosition);
+        
 
         let computedLeft = parseFloat(getComputedStyle(el).left)
         let isInLeft = (computedLeft < window.innerWidth / 2) ? 1 : -1;
@@ -34,11 +34,5 @@ window.addEventListener("mousemove", (e) => {
 
     rotateDegre = xValue / (window.innerWidth / 2) * 20;
     update(e.clientX)
-
-
-    
-    
-
-
 
 });

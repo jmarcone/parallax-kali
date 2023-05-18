@@ -127,9 +127,9 @@ main {
 .mountain-7{
     z-index: 8;
     position: absolute;
-    width: 538px;
-    top: calc(50% + 123px);
-    left: calc(50% + 305px);
+    width: 576px;
+    top: calc(60% + 168px);
+    left: calc(50% + 240px);
     
 }
 
@@ -177,8 +177,8 @@ main {
 .mountain-5{
     z-index: 12;
     position: absolute;
-    width: 625px;
-    top: calc(50% + 60px);
+    width: 665px;
+    top: calc(60% + 200px);
     left: calc(50% + 590px);
  
 }
@@ -188,7 +188,7 @@ main {
     position: absolute;
     width: 625px;
     top: calc(50% + 260px);
-    left: calc(50% - 590px);
+    left: calc(33% - 590px);
  
   
 }
@@ -214,27 +214,27 @@ main {
 .mountain-3{
     z-index: 14;
     position: absolute;
-    width: 485px;
-    top: calc(50% + 60px);
-    right: calc(50% - 1050px);
+    width: 434px;
+    top: calc(50% + 169px);
+    right: calc(20% - 800px);
  
 }
 
 .fog-2{
   z-index: 16;
-  position: absolute;
-  width: 1560px;
-  top: 0;
-  left: calc(50% - 30px);
+  position: none;
+  width: 100%;
+  top: calc(50% + 154px);
+  left: calc(50% - 300px);
  
 }
 
 .mountain-2{
-  z-index: 17;
+  z-index: 19;
   position: absolute;
-  width: 690px;
+  width: 500px;
   top: calc(50% + 154px);
-  left: calc(50% + 412px);
+  left: calc(15% - 500px);
  
 }
 
@@ -243,7 +243,7 @@ main {
     position: absolute;
     width: 530px;
     top: calc(50% + 17px);
-    left: calc(50% - 801px);
+    left: calc(40% - 801px);
  
 }
 
@@ -267,9 +267,9 @@ main {
 .fog-1{
   z-index: 21;
   position: absolute;
-  width: 1600px;
-  top: calc(100% -355px);
-  left: 50%;
+  width: 100%;
+  top: calc(100% - 455px);
+  right: calc(100% - 45px);
   
 }
 
@@ -286,5 +286,5 @@ main {
 .parallax{
   pointer-events: none;
   transition: 0.45s cubic-bezier(0.2,.49,.32,.99);
-  perspective: 4000px;
+  perspective: 1480px;
 }
